@@ -1,0 +1,110 @@
+.App .list_box{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--body-background);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: 2px solid rgb(187, 219, 218); */
+    padding: 5rem;
+    position: relative;
+}
+
+
+.App .list_box .list_box_left{
+    width: 60%;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* border: 2px solid lightcoral; */
+}
+
+.App .list_box .list_box_left .list_left_upper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+
+}
+
+.App .list_box .list_box_right{
+    width: 30%;
+    height: 100vh;
+    position: sticky;
+    top: 8vh;
+    transform: translateY(-7.5%);
+
+    
+}
+
+
+.App .list_box .clear_translate{
+    transform: translateY(-3.5%);
+}
+
+
+
+
+
+
+.App .list_box .list_box_left .left_banner{
+    width: 65%;
+    /* border: 1px solid lightseagreen; */
+}
+
+.App .list_box .list_box_left .left_banner .banner{
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--heading);
+}
+
+.App .list_box .list_box_left .left_banner .banner span{
+    color: #cf8230;
+}
+
+.App .list_box .list_box_left .left_search .left_search_input{
+    width: 100%;
+    padding: 1.5rem 1rem;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    padding-left: 4rem;
+}
+
+.App .list_box .list_box_left .left_search{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.App .list_box .list_box_left .left_search .fl{
+    display: inline-block;
+    position: absolute;
+    
+    left: 0;
+}
+
+.App .list_box .list_box_left .list_left_lower .lower_box{
+    margin-bottom: 4rem;
+}
+.App .list_box .list_box_left .list_left_lower .lower_box .list_heading{
+    font-weight: 600;
+    margin-bottom: 2rem;
+    
+}
+
+
+.App .list_box .list_box_left .list_left_lower .lower_box .lower_cards{
+    width: 80%;
+    display: flex;
+    min-height: 10rem;
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid rebeccapurple; */
+}

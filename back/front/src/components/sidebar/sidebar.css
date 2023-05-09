@@ -1,0 +1,65 @@
+.close{
+    display: none;
+}
+.navbar{
+    width: 7%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color:  var(--card_background);
+    
+    
+    /* position: absolute;
+    left: 0; */
+    align-self: flex-start;
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+}
+
+.navbar .nav_box{
+
+   width: 60%;
+   min-width: 3rem;
+   color: #222222;
+   cursor: pointer;
+    /* border: 2px solid lightgreen; */
+}
+
+
+.navbar .nav_box2{
+  width: 5rem;
+  height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.navbar .nav_box2 img:not(.nav_box1){
+    filter: grayscale(70%);
+
+}
+
+
+.navbar .nav_box7{
+    margin-top: 3rem;
+    position: relative;
+}
+
+.navbar .nav_box7 .counter{
+    display: inline-block;
+    width: 50%;
+    background-color: aliceblue;
+    color: #222222;
+    position: absolute;
+    top: -15px;
+    right: 0;
+}
+
+.navbar .small{
+
+    width: 50%;
+}

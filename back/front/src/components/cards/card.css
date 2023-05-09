@@ -1,0 +1,46 @@
+.card{
+
+    width: 28%;
+
+    /* width: fit-content; */
+    min-height: 5rem;
+    background-color: var(--card_background);
+    
+    
+    font-size: 1.5rem;
+     
+    padding: 1rem;
+    text-align: top;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    box-shadow: 0px 2px 5px -4px rgba(0,0,0,0.16);
+-webkit-box-shadow: 0px 2px 5px -4px rgba(0,0,0,0.16);
+-moz-box-shadow: 0px 2px 5px -4px rgba(0,0,0,0.16);
+
+    
+}
+
+.expand{
+    justify-content: space-around;
+}
+
+.done{
+    border-bottom: 2px solid lightgreen;
+}
+
+.pend{
+    border-bottom: 2px solid lightcoral;
+}
+
+.card .card_left{
+    margin-right: 1rem;
+}
+
+.card .change{
+    color: var(--button);
+}
+

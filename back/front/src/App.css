@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Rubik:wght@400;500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+:root{
+  --body-background: #f7f5f7;
+  --card_background:   #fff;
+  --heading: #191f40;
+  --sidebar: #fff0de;
+  --banner: #80485b;
+  --button: #f9a109;
+  --status: #56ccf2;
+
+}
+
+li{
+  list-style: none;
+}
+.App{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+  
+ 
+}
+
+.btn_prime{
+  text-decoration: none;
+  display: inline-block;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  
+}
+input[type="checkbox"] {
+  accent-color: var(--button);
+}

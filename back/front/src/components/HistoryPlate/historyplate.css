@@ -1,0 +1,89 @@
+.historyPlate{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    background-color: #fff;
+
+    box-shadow: -2px -1px 5px -8px rgba(0,0,0,0.62);
+-webkit-box-shadow: -2px -1px 5px -8px rgba(0,0,0,0.62);
+-moz-box-shadow: -2px -1px 5px -8px rgba(0,0,0,0.62);
+    
+}
+
+
+
+.historyPlate .historyPlate_left{
+    width: 60%;
+    
+    padding: 2rem 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    
+}
+
+.historyPlate .historyPlate_right{
+    width: 40%;
+
+    padding: 1.1rem 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+.historyPlate .historyPlate_right .status{
+ 
+    border: 2px solid var(--status) ;
+    padding: 0.8rem 0.5rem;
+    
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: var(--status);
+    border-radius: 8px;
+}
+
+
+.historyPlate .historyPlate_right .antistatus{
+
+    border: 2px solid #de7052 ;
+    padding: 0.8rem 0.5rem;
+    
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #de7052 ;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+.historyPlate .historyPlate_right .cal_icon{
+    width: 10%;
+    min-width: 18px;
+    
+}
+
+.historyPlate .historyPlate_right .cal_icon img{
+    width: 100%;
+    fill: lightgrey!important;
+    
+}
+
+
+
+
+.historyPlate .historyPlate_right .more{
+    width: 10%;
+    min-width: 20px;
+}
+.historyPlate .historyPlate_right .more img{
+    width: 100%;
+    cursor: pointer;
+    
+}

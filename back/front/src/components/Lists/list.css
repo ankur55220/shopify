@@ -1,0 +1,78 @@
+.lists{
+    width: 100%;
+}
+
+.lists .list_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+}
+.lists .list_title .list_title_left{
+    width: 60%;
+    font-size: 1.7rem;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    font-weight: 600;
+    
+}
+
+.lists .list_title .list_title_left .inner,.inner_img{
+    display:inline-block;
+}
+
+.lists .list_title .list_title_left .inner{
+    margin-right: 0.5rem;
+}
+
+.lists .list_title .list_title_left .inner_img img{
+    width: 80%;
+}
+
+.lists .list_title .list_title_right{
+    width: 8%;
+
+    
+}
+
+
+
+.lists .list_title .list_title_right img{
+    width: 100%;
+}
+
+.lists .items{
+    padding: 1rem 2rem;
+    overflow-y: scroll;
+}
+
+
+.lists .items .item_category h1{
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: lightgray;
+}
+
+.lists .items .item .item_name{
+    margin-bottom: 1rem;
+}
+
+
+.lists .items .item .item_name .item_desc{
+    width: 100%;
+
+    font-size: 1.5rem;
+    font-weight: 800;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.lists .items .item .item_name .item_desc .through{
+    text-decoration: line-through;
+}
